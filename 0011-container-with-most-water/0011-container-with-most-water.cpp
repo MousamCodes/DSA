@@ -1,25 +1,24 @@
-#include<algorithm> // for min max hehe
 class Solution {
 public:
-    int area(auto i, auto j){
-        return (j - i) * min(*i, *j);
-    }
-
     int maxArea(vector<int>& height) {
-        auto i = height.begin();
-        auto j = height.end() - 1;
+        int i = 0;
+        int j = height.size() - 1;
         int result = 0;
 
-        while(i < j)
-        {
-            result = max(result, area(i, j));
-            if(*i < *j){
+        while (i < j) {
+            // Calculate area directly to save function call time
+            int h = (height[i] < height[j]) ? height[i] : height[j];
+            int current_area = (j - i) * h;
+            
+            if (current_area > result) result = current_area;
+
+            // Move the shorter pointer
+            if (height[i] < height[j]) {
                 i++;
             } else {
                 j--;
-            }  
+            }
         }
-        
-        return result; 
+        return result;
     }
 };
