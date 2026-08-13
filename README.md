@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/MousamCodes/DSA/tree/master/0125-valid-palindrome) |
+| [0290-word-pattern](https://github.com/MousamCodes/DSA/tree/master/0290-word-pattern) |
 ## Greedy
 |  |
 | ------- |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/MousamCodes/DSA/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/MousamCodes/DSA/tree/master/0202-happy-number) |
+| [0290-word-pattern](https://github.com/MousamCodes/DSA/tree/master/0290-word-pattern) |
 | [0523-continuous-subarray-sum](https://github.com/MousamCodes/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/MousamCodes/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/MousamCodes/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
